@@ -1,0 +1,10 @@
+{
+  "hello": "Привет {placeholder}",
+  "@hello": {
+    "placeholders": {
+      "placeholder": {
+        "type": "String"
+      }
+    }
+  }
+}
