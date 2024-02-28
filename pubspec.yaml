@@ -1,5 +1,8 @@
 name: localization_translator
 description: Package for translation flutter_localizations resources.
+repository: https://github.com/tokyolem/localization_translator
+homepage: https://pub.dev/packages/localization_translator
+license: MIT
 version: 0.0.1
 
 environment:
