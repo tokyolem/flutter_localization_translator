@@ -1,8 +1,8 @@
-import 'package:localization_translator/src/translator_base/localization_translator_base.dart';
-import 'package:localization_translator/src/translator_base/yaml_parameters_reader.dart';
-import 'package:localization_translator/src/utils/process_runner.dart';
-import 'package:localization_translator/src/utils/translator_logger.dart';
-import 'package:localization_translator/src/utils/yaml_configurator_fields.dart';
+import 'package:flutter_localization_translator/src/translator_base/localization_translator_base.dart';
+import 'package:flutter_localization_translator/src/translator_base/yaml_parameters_reader.dart';
+import 'package:flutter_localization_translator/src/utils/process_runner.dart';
+import 'package:flutter_localization_translator/src/utils/translator_logger.dart';
+import 'package:flutter_localization_translator/src/utils/yaml_configurator_fields.dart';
 
 Future<void> main() async {
   final configuration = await YamlParametersReader.mapConfiguration();

@@ -1,4 +1,4 @@
-name: localization_translator
+name: flutter_localization_translator
 description: Package for translation flutter_localizations resources.
 repository: https://github.com/tokyolem/localization_translator
 homepage: https://pub.dev/packages/localization_translator
@@ -13,4 +13,4 @@ dependencies:
   yaml: ^3.1.2
 
 executables:
-  translate: bin/localization_translator/main.dart
+  translate: bin/main.dart

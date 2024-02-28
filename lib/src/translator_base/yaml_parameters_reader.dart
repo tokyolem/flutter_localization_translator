@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:localization_translator/src/utils/translator_logger.dart';
+import 'package:flutter_localization_translator/src/utils/translator_logger.dart';
 import 'package:yaml/yaml.dart' as yaml;
 
 abstract final class YamlParametersReader {

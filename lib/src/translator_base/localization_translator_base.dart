@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:localization_translator/src/utils/arb_handler.dart';
-import 'package:localization_translator/src/utils/placeholders_handler.dart';
-import 'package:localization_translator/src/utils/translator_logger.dart';
-import 'package:localization_translator/src/utils/yaml_configurator_fields.dart';
+import 'package:flutter_localization_translator/src/utils/arb_handler.dart';
+import 'package:flutter_localization_translator/src/utils/placeholders_handler.dart';
+import 'package:flutter_localization_translator/src/utils/translator_logger.dart';
+import 'package:flutter_localization_translator/src/utils/yaml_configurator_fields.dart';
 import 'package:translator/translator.dart';
 
 final class LocalizationTranslatorBase {
