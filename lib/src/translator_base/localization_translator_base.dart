@@ -63,6 +63,15 @@ final class LocalizationTranslatorBase {
     for (final mismatchLocale in translateMismatches.keys) {
       final allMismatchLocaleTranslations = _localeTranslations(mismatchLocale);
 
+      if (allMismatchLocaleTranslations == null) {
+        TranslatorLogger.infoLog(
+          '<!>Something went wrong<!>'
+          'Check your $mismatchLocale .arb resources.',
+        );
+
+        return;
+      }
+
       final localeMismatchesMap = translateMismatches[mismatchLocale]!;
       final pathForWriting = allArbPaths.firstWhere(
         (e) => e.contains('${_arbTemplate}_$mismatchLocale'),
@@ -74,7 +83,7 @@ final class LocalizationTranslatorBase {
       final arbFile = File(pathForWriting).openSync(mode: FileMode.append);
 
       for (final mismatchStringKey in localeMismatchesMap.keys) {
-        allMismatchLocaleTranslations![mismatchStringKey] =
+        allMismatchLocaleTranslations[mismatchStringKey] =
             localeMismatchesMap[mismatchStringKey]!;
       }
 
@@ -85,8 +94,6 @@ final class LocalizationTranslatorBase {
           ArbHandler.formattedJsonEncode(allMismatchLocaleTranslations),
         )
         ..closeSync();
-
-      return;
     }
 
     TranslatorLogger.infoLog(
