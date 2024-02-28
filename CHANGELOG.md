@@ -10,3 +10,7 @@
 
 - Hotfix: Removed a useless exit point (return;) from a method that writes new values to .arb resources.
 - Hotfix: Update supported platforms.
+
+## 0.0.4
+
+- Hotfix: Update supported platforms.

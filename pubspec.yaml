@@ -4,14 +4,7 @@ repository: https://github.com/tokyolem/flutter_localization_translator
 homepage: https://pub.dev/packages/flutter_localization_translator
 license: MIT
 version: 0.0.3
-
-environment:
-  sdk: ^3.3.0
-
-dependencies:
-  translator: ^1.0.0
-  yaml: ^3.1.2
-
+publish_to: https://pub.dev/packages/flutter_localization_translator
 platforms:
   android:
   ios:
@@ -19,3 +12,10 @@ platforms:
   macos:
   web:
   windows:
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  translator: ^1.0.0
+  yaml: ^3.1.2
