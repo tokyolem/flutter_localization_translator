@@ -4,7 +4,6 @@ repository: https://github.com/tokyolem/flutter_localization_translator
 homepage: https://pub.dev/packages/flutter_localization_translator
 license: MIT
 version: 0.0.4
-publish_to: https://pub.dev/
 platforms:
   android:
   ios:
