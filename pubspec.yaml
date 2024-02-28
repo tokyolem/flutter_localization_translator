@@ -11,6 +11,3 @@ environment:
 dependencies:
   translator: ^1.0.0
   yaml: ^3.1.2
-
-executables:
-  translate: bin/main.dart
