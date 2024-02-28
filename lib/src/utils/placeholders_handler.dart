@@ -1,3 +1,5 @@
+/// An auxiliary class that allows you to ignore placeholders
+/// when translating lines.
 abstract final class PlaceholdersHandler {
   static String putPlaceholders(
       String translatedMessage, List<String> placeholders) {

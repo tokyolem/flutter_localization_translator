@@ -6,6 +6,8 @@ import 'package:yaml/yaml.dart' as yaml;
 abstract final class YamlParametersReader {
   static const String _yamlPath = 'localization_translator.yaml';
 
+  /// The method returns the configuration from the
+  /// localization.translation.yaml file.
   static Future<Map<String, dynamic>?> mapConfiguration() async {
     try {
       final yamlConfigurator = await _fetchYamlConfigurator();
@@ -26,6 +28,7 @@ abstract final class YamlParametersReader {
     }
   }
 
+  /// The method converts yamlMap into a regular Map object.
   static Map<String, dynamic>? _castYamlMapToMap(yaml.YamlMap yamlMap) {
     final keys = yamlMap.keys.map((e) => e.toString());
 
