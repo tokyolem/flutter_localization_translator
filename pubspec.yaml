@@ -3,7 +3,7 @@ description: The package helps developers easily translate .arb resources into d
 repository: https://github.com/tokyolem/flutter_localization_translator
 homepage: https://pub.dev/packages/flutter_localization_translator
 license: MIT
-version: 0.0.1
+version: 0.0.2
 
 environment:
   sdk: ^3.3.0
