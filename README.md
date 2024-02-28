@@ -5,7 +5,7 @@ The package helps developers easily translate .arb resources into different lang
 Add it to your `pubspec.yaml` file:
 ```yml
 dev_dependencies:
-  localization_translator: ^latest_version
+  flutter_localization_translator: ^latest_version
 ```
 Install packages from the command line
 ```
@@ -19,7 +19,7 @@ You can use this in the following way:
 2. Inside `localization_translator.yaml`, specify the necessary parameters. (Below is a table with all available fields and their corresponding meaning)
 3. Run translator script using this terminal command inside your project directory:
 ```
-dart run localization_translator
+dart run flutter_localization_translator
 ```
 
 ## Configuration in `localization_translator.yaml`
