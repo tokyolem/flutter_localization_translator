@@ -1,0 +1,13 @@
+name: localization_translator
+description: Package for translation flutter_localizations resources.
+version: 0.0.1
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  translator: ^1.0.0
+  yaml: ^3.1.2
+
+executables:
+  translate: bin/localization_translator/main.dart

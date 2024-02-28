@@ -1,0 +1,15 @@
+pathToArb: 'lib/l10n'
+localeTemplate: en
+
+## default - app (Example - app_en.arb)
+#arbTemplate: app
+
+## List of locales that should
+#excludedLocales:
+#  - ru
+#  - en
+## List of locale keys that should be regenerate
+#regenerationKeys:
+#  - hello
+specificLocalesConfiguration:
+  - zh-cn

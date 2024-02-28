@@ -1,0 +1,10 @@
+{
+  "hello": "Hello {placeholder}",
+  "@hello": {
+    "placeholders": {
+      "placeholder": {
+        "type": "String"
+      }
+    }
+  }
+}
